@@ -10,6 +10,7 @@ app.post('/tutor', async (req, res) => {
         data: { 
             usuario: req.body.usuario,
             senha: req.body.senha,
+            email: req.body.email,
             nome: req.body.nome,
             cpf: req.body.cpf
         }
@@ -57,6 +58,7 @@ app.post('/aluno', async (req, res) => {
         data: { 
             usuario: req.body.usuario,
             senha: req.body.senha,
+            email: req.body.email,
             nome: req.body.nome,
             cpf: req.body.cpf
         }
